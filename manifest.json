@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.baby-bloom",
+  "name": "Baby Bloom",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A soft pink beauty bloom \u2014 brightened skin tones, warm rosy highlights, and gently reduced contrast for that clean pastel look.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/baby-bloom.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "stylize",
+        "beauty",
+        "pink",
+        "pastel",
+        "soft",
+        "one-click"
+      ]
+    }
+  ]
+}
